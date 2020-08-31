@@ -1,0 +1,292 @@
+
+.pull-right{
+	float: right !important;
+}
+
+.pull-left{
+	float: left !important;
+}
+
+/* ==============
+	自定义页面样式
+   ============== */
+html,body{
+	height: 100%;
+}
+body{
+	font-size: 1.2rem;
+	line-height: 1.5;
+	background: #f2f2f2;
+}
+
+
+/* start header */
+body .header{
+	position:relative;
+}
+.header-wrap{
+	padding:0 70px 0 40px;
+}
+body .header{
+	height: 80px;
+	margin-bottom: -100px;
+	line-height:80px;
+	background: #AAAAAA;
+}
+.logo-img{
+	height:65px;
+	padding-right: 10px;
+}
+.blog-seach{
+	padding:18px 0 0 85px;
+}
+.blog-sewrap{
+	margin-bottom: 0px;
+}
+.blog-sebox{
+	position:relative;
+	margin-left: 0; 
+    min-height: auto;
+}
+.blog-seach i{
+	position: absolute;
+	color:#fff;
+	width: 25px;
+	height: 27px;
+	line-height:27px;
+	top: 9px;
+	left: 15px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.blog-seach input{
+	padding-left:50px;
+	width: 367px;
+	height:45px;
+	line-height:45px;
+	background:transparent;
+	border: 1px solid rgba(255,255,255,.15);
+	font-size:16px;
+	color: #fff;
+}
+.blog-seach input.layui-input:hover{border-color: rgba(255,255,255,.5) !important ;}
+
+body .blog-nav ul{
+	background:transparent;
+	padding-left:0;
+	padding-right: 20px;
+}
+body .header .blog-nav ul li{
+	line-height: 80px;
+}
+body .blog-nav ul li a{
+	font-size: 16px;
+	padding: 0 34px;
+}
+
+.blog-nav ul li.layui-this:after,
+.layui-nav-bar{
+	background: #C1E4FF;
+}
+
+.blog-nav .personal{
+	height:80px;
+}
+.blog-nav .personal i{
+	color:#FFF;
+	font-size: 20px;
+}
+
+.blog-nav .personal:hover{
+	color:#FFF;
+}
+
+.mobile-nav{
+	display:none;
+	padding:0 20px;
+}
+.mobile-nav i{
+	font-size: 40px;
+	color: #fff;
+}
+ul.pop-nav{
+	width:100%;
+	line-height:60px;
+	position:absolute;
+	left:0px;
+	top:100px;
+	text-align:center;
+	background:#1e9fff;
+	display:none;
+	z-index: 2;
+}
+ul.pop-nav  li{
+	border-top: 2px solid rgba(255,255,255,0.08);
+}
+ul.pop-nav li a{
+	display:block;
+	height:100%;
+	width:100%;
+	font-size:20px;
+	color:#fff;
+}
+@media only screen and (max-width: 1100px) {
+	.blog-seach{
+		padding-left:50px;
+	}
+    .blog-seach input{
+    	width: 200px;
+    }
+}
+
+@media only screen and (max-width:  900px) {
+	.blog-seach{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:  750px) {
+	.blog-nav{
+		display:none;
+	}
+	.mobile-nav{
+		display:block;
+	}
+	.header-wrap{
+	padding:0 20px 0 40px;
+	}
+	ul#pop-nav{
+		display:none;
+	}
+}
+
+@media only screen and (min-width:  750px) {
+	ul#pop-nav{
+		display:none !important;
+	}
+}
+
+/* end header */
+
+
+/* start container */
+.container-wrap{margin:0px auto 0;min-height:100%;padding:120px 0 130px 0;box-sizing: border-box;}
+
+/* 就是中间的宽度 */
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+/* 公告 start */
+.container h4{
+	width: 96%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	line-height: 30px;
+	background: #EEEEEE;
+	font-size:12px;
+	border-radius: 5px;
+}
+.container h4 p{padding-left:30px;color:#666666;}
+.container h4 p i{font-size:20px;padding-right:10px;position:relative;top:3px;}
+/* 公告 end */
+
+@media only screen and (max-width:  750px) {
+	.container{width:100%; margin: 0 auto 70px;}
+	.container .contar-wrap{padding: 0 10px 10px;}
+
+	.container-wrap{padding-top: 110px;}
+}
+/* end container */
+
+
+/* start foooter */
+
+.footer{width: 100%; padding: 30px 0; line-height: 30px
+	;background: #23262e; color: #fff; color: rgba(255,255,255,0.5); font-size: 14px; text-align:center;margin-top: -120px;}
+.footer span{padding: 0 5px;}
+.footer a{color: #fff; color: rgba(255,255,255,0.5);}
+
+/* end foooter */
+
+
+/* start message*/
+
+/*.container-message textarea{
+	font-size:14px;
+}
+
+.container-message .info-item{font-size:14px;margin-bottom:66px;}
+.container-message .info-img{cursor: pointer;float: left;padding-right:20px;}
+.container-message .info-text{padding-left:88px;}
+.container-message .title{overflow:hidden;margin-bottom:10px;}
+.container-message .title .name{float: left; display: block; line-height: 38px; color:#787878;}
+.info-intr{line-height: 24px;}
+.container-message .title .info-img{float: right;color:#4b5a75;}
+.container-message .title .info-img i{font-size: 24px;padding-right: 5px;position: relative;top: 4px;}
+.container-message .paging{text-align:center;padding-top:30px;}*/
+/* end message*/
+
+
+@media screen and (max-width: 1250px){
+	.container {
+		width: 96%;
+	}
+}
+
+/* login form start */
+
+#login-box-wrap{
+	padding: 30px 12px 5px 12px;
+}
+.form-element-inline{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 0;
+}
+.form-element-inline label{
+	height: 38px;
+	width:80px;
+	line-height: 20px;
+	padding: 8px 15px;
+	background: #FBFBFB;
+	border:1px solid #e6e6e6;
+	border-radius:2px 0 0 2px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 1rem;
+	vertical-align: top;
+}
+.form-element-inline .input-box {
+	display: inline-block;
+	margin-left: -1px;
+	font-size: 1rem;
+}
+.form-element-inline input {
+	border-radius: 0 2px 2px 0;
+	height: 38px;
+	line-height: 1.3;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.form-element-inline span{
+	color: red;
+	font-size: 1rem;
+	/* 通过js来显示和隐藏 */
+	visibility: hidden;
+}
+.form-element-inline button{
+	font-size: 1rem;
+	background: #FBFBFB;
+}
+.form-element-inline button:hover{
+	border-color: #9F9F9F;
+}
+/* 去掉原始的hover变成蓝色 */
+.layui-layer-setwin .layui-layer-close2:hover{
+	background-position: -149px -31px !important;
+}
+/* login form end */

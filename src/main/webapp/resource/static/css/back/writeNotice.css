@@ -1,0 +1,96 @@
+#content-container .left-content-title{
+    margin-left: 10px;
+    width: 30%;
+    font-size: 1.1rem;
+    line-height: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+#content-container .left-content-title .fa .fa-arrows-h i{
+    font-size: 1.1rem !important;
+}
+
+#content-container textarea{
+    min-height: 420px;
+}
+
+#content-container .left-content{
+    margin-left: 10px;
+    width: 94%;
+}
+
+#content-container .right-content-title{
+    margin-left: 10px;
+    width: 30%;
+    font-size: 1.1rem;
+    line-height: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+#content-container .right-content{
+    margin-left: 10px;
+    width: 94%;
+}
+#content-container .right-content #right-content-preview{
+    padding: 6px 10px;
+    width: auto;
+    height: 406px;
+    min-height: 406px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 2px;
+    position: relative;
+    overflow-y: auto;
+    resize: vertical;
+}
+.layui-btn-primary:hover {
+    border-color: #999999;
+}
+
+.exchange-button {
+    display: none;
+}
+
+/* 预览的样式 start */
+.container #right-content-preview {color: #777777;}
+.container #right-content-preview h1 { font-size: 1.6rem; margin: 0.8rem; color:#333333; /*border-bottom: solid 1px #999999*/}
+.container #right-content-preview h2 { font-size: 1.4rem; }
+.container #right-content-preview h3 { font-size: 1.2rem; }
+.container #right-content-preview h4 { font-size: 1.0rem; }
+.container #right-content-preview h5 { font-size: 0.8rem; }
+.container #right-content-preview h6 p{ font-size: 0.8rem; }
+.container #right-content-preview ul>li{ list-style: circle;margin-left: 1.2rem}
+.container #right-content-preview ol>li{ list-style: decimal;margin-left: 1.2rem}
+.container #right-content-preview blockquote {
+    padding-left: 1.875rem;
+    margin: 0 0 1.875rem 1.2rem;
+    border-left: solid 2px #999999;
+}
+/* 预览的样式 end */
+
+@media only screen and (max-width:  960px) {
+    #right-content-box {
+        display: none;
+    }
+    #left-content-box{
+        width:99%;
+        margin-left:2%;
+    }
+    #right-content-box{
+        width:99%;
+        margin-left:2%;
+    }
+    /* 隐藏button */
+    #preview-button {
+        display: none;
+    }
+    #text-button {
+        display: none;
+    }
+    /* 显示exchange-button */
+    .layui-btn+ .exchange-button{
+        display: inline-block;
+        margin-left: 35%;
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情-JingdaiBlog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../resource/static/plugin/layui/css/layui.css">
+	<link rel="stylesheet" href="../../resource/static/css/front/frontBase.css">
+	<link rel="stylesheet" href="../../resource/static/css/front/articleDetail.css">
+	<link rel="stylesheet" href="../../resource/static/plugin/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+		<div class="header">
+			<div class="header-wrap">
+				<h1 class="logo pull-left">
+					<a href="index.html">
+						<img src="../../resource/static/image/logo.png" alt="" class="logo-img">
+					</a>
+				</h1>
+				<form class="layui-form blog-seach pull-left" action="">
+					<div class="layui-form-item blog-sewrap">
+					    <div class="layui-input-block blog-sebox">
+					      <i class="layui-icon layui-icon-search"></i>
+					      <input type="text" name="title"  autocomplete="off"  class="layui-input">
+					    </div>
+					</div>
+				</form>
+				<div class="blog-nav pull-right">
+					<ul class="layui-nav pull-left">
+					  <li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
+					  <li class="layui-nav-item"><a href="message.html">留言</a></li>
+					  <li class="layui-nav-item"><a href="about.html">关于</a></li>
+					</ul>
+					<a href="#" class="personal pull-left">
+						<i class="layui-icon layui-icon-username"></i>
+					</a>
+				</div>
+				<div class="mobile-nav pull-right" id="mobile-nav">
+					<a href="javascript:;">
+						<i class="layui-icon layui-icon-more"></i>
+					</a>
+				</div>
+			</div>
+			<ul class="pop-nav" id="pop-nav">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="message.html">留言</a></li>
+				<li><a href="about.html">关于</a></li>
+			</ul>
+		</div>
+
+		<div class="container-wrap">
+
+			<div class="container">
+
+				<div id = "full-article-box">
+					<div id = "full-article">
+						<h1>jingdaiblog 里一些规范（类名，方法名那些java规范当做常识就没有写了）</h1>
+						<blockquote><ol>
+							<li><p>mybatis的 XxxMapper 映射文件都包含一个 BaseResultMap 的 resultMap 用作结果集映射。</p>
+							</li>
+							<li><p>POJO类的布尔属性不能加 is ，而数据库字段必须加 is_ 。这点参考阿里Java开发手册，POJO的布尔型变量加 is 会导致部分框架解析出现序列化错误。</p>
+							</li>
+							<li><p>项目中Service和Dao层方法一些规范：</p>
+								<ul>
+									<li>获取单个对象用 get 做前缀</li>
+									<li>获取多个对象用 list 做前缀，对象名后面加 s </li>
+									<li>插入用 insert 做前缀</li>
+									<li>删除用 delete 做前缀</li>
+									<li>表示用什么取得/操作对象使用 byXx ,例如 getUserById() </li>
+
+								</ul>
+							</li>
+							<li><p>枚举类都要带上 Enum 后缀，枚举成员名称全部大写，单词下划线隔开。（枚举类是特殊的常量类）</p>
+							</li>
+							<li><p>包名统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词，包名统一使用单数形式。</p>
+							</li>
+							<li><p>后面有了继续写。。。</p>
+							</li>
+						</ol>
+						</blockquote>
+					</div>
+					<div id="article-view-like">
+						<span><i class="fa fa-eye"></i>&nbsp;&nbsp;浏览量:&nbsp;1</span>
+						<span><a><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;点赞数:</a>&nbsp;1</span>
+					</div>
+				</div>
+
+				<div id="article-comment">
+					<div class="article-comment-item">
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="footer">
+			<p>
+				<span>&copy; 2020</span>
+				<span><a href="javascript:;" target="_blank">xxx.com</a></span>
+			</p>
+			<p><span>鲸呆博客</span></p>
+		</div>
+	<script src="../../resource/static/plugin/layui/layui.js"></script>
+	<script src="../../resource/static/js/showdown.min.js"></script>
+
+</body>
+</html>

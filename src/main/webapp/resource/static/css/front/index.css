@@ -1,0 +1,124 @@
+
+/* article start*/
+
+.container .article-item{
+    margin-bottom: 15px;
+    background: #fff;
+    padding-top: 20px;
+}
+.container .article-item .article-item-box{
+    padding:0 20px 10px;
+    font-size:16px;
+}
+
+/* 文章标题 */
+.container .article-item h3 {
+    padding-left:2%;
+    line-height:36px;
+    font-size:20px;
+}
+/* 发布日期 */
+.container .article-item h5{
+    padding-left:2%;
+    line-height: 38px;
+    color:#a5a5a5;
+}
+
+.container .article-item-box-img {
+    display:inline-block;
+    vertical-align: top;
+    padding: 1% 2% 1% 2%;
+}
+
+/* TODO 图片以后直接弄这么大的*/
+.container .article-item-box-img img{
+    width: 200px;
+    height: 145px;
+}
+
+.container  .article-item-box-text{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1% 2% 1% 1%;
+    font-size: 18px;
+    width: 72%;
+}
+
+.container .article-item  .article-item-box-like-comment{
+    margin-top: 1%;
+    padding: 1% 5% 1% 65%;
+    color: #AAAAAA;
+}
+
+@media screen and (max-width: 1050px){
+    .container  .article-item-box-text{
+        width: 70%;
+    }
+    .container .article-item .article-item-box-like-comment{
+        padding-left: 55%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .container  .article-item-box-text{
+        width: 65%;
+    }
+    .container .article-item .article-item-box-like-comment{
+        padding-left: 50%;
+    }
+    .container .article-item-box-img img {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:  800px) {
+    .container .article-item-box-img {
+        display:none;
+    }
+    .container .article-item-box-img img {
+        display:none;
+    }
+    .container  .article-item-box-text{
+        width: 96%;
+        padding-left: 2%;
+    }
+    .container .article-item .article-item-box-like-comment{width: 100%; line-height: 56px; background: #f9f9f9; font-size: 14px; overflow:hidden;}
+    .container .article-item .article-item-box-like-comment{
+        padding: 0 0 0 0;
+    }
+    .container .article-item .article-item-box-like-comment a{display:inline-block;width:50%;text-align:center;float: left;}
+    .container .article-item .article-item-box-like-comment a+a{display:inline-block;border-left:1px solid #efefef;margin-left:-1px;}
+    .container .article-item .article-item-box-like-comment {text-align:center;margin-top:20px;}
+    .container .article-item .article-item-box-like-comment .article-item-box-author{
+        display: none;
+    }
+}
+
+/* article end */
+
+/* paging start */
+.container #article-paging-box-wrap{
+    text-align: right;
+}
+
+.container #article-paging-box{
+    display: inline-block;
+}
+
+.container #article-paging-box .layui-laypage a{
+     font-size: 1.4rem !important;
+     line-height: 2.5rem !important;
+     height: 2.5rem !important;
+ }
+
+.container #article-paging-box .layui-laypage a:hover{
+     color: #a5a5a5;
+}
+
+.container #article-paging-box .layui-laypage span{
+     font-size: 1.4rem !important;
+     line-height: 2.5rem !important;
+     height: 2.5rem !important;
+ }
+
+/* paging end */

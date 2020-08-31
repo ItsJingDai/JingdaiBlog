@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JingdaiBlog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../resource/static/plugin/layui/css/layui.css">
+	<link rel="stylesheet" href="../../resource/static/css/front/frontBase.css">
+	<link rel="stylesheet" href="../../resource/static/css/front/index.css">
+	<link rel="stylesheet" href="../../resource/static/plugin/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<div class="header">
+
+		<div class="header-wrap">
+			<h1 class="logo pull-left">
+				<a href="index.html">
+					<img src="../../resource/static/image/logo.png" alt="" class="logo-img">
+				</a>
+			</h1>
+
+			<form class="layui-form blog-seach pull-left" action="">
+				<div class="layui-form-item blog-sewrap">
+					<div class="layui-input-block blog-sebox">
+					  <i class="layui-icon layui-icon-search"></i>
+					  <input type="text" name="title" autocomplete="off"  class="layui-input">
+					</div>
+				</div>
+			</form>
+
+			<div class="blog-nav pull-right">
+				<ul class="layui-nav pull-left">
+					<li class="layui-nav-item">
+						<a href="javascript:;">技术博客</a>
+						<dl class="layui-nav-child" style="top:81px"> <!-- 二级菜单 -->
+							<dd><a href="">Java</a></dd>
+							<dd><a href="">LeetCode</a></dd>
+							<dd><a href="">Spring</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item"><a href="message.html">留言</a></li>
+					<li class="layui-nav-item"><a href="about.html">关于</a></li>
+				</ul>
+				<a id="personal-icon" href="javascript:;" class="personal pull-left">
+					<i class="layui-icon layui-icon-username"></i>
+				</a>
+			</div>
+
+			<!--适配手机的 手机会显示3个点点点-->
+			<div class="mobile-nav pull-right" id="mobile-nav">
+				<a href="javascript:;">
+					<i class="layui-icon layui-icon-more"></i>
+				</a>
+			</div>
+
+		</div>
+
+		<!--适配手机的 先不管-->
+		<ul class="pop-nav" id="pop-nav">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="message.html">留言</a></li>
+			<li><a href="about.html">关于</a></li>
+		</ul>
+
+	</div>
+
+	<div class="container-wrap">
+		<div class="container">
+				<div class="contar-wrap">
+
+					<h4 class="item-title">
+						<p><i class="layui-icon layui-icon-speaker"></i>公告：<span>欢迎来到JingdaiBlog</span></p>
+					</h4>
+
+					<div class="article-item">
+						<div class="article-item-box">
+						<h3><a href="articleDetail.html">我是文章的标题</a></h3>
+						<h5>发布于：<span>刚刚</span></h5>
+
+						<div class="article-item-box-content">
+							<div class="article-item-box-img" >
+								<img src="../../resource/static/image/article-image/article1.jpg" alt="">
+							</div>
+
+							<div class="article-item-box-text" >
+								<div class="article-item-box-summary">
+									<!--大概135字可以-->
+									<p>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+										8/12你的内容 8/12你的内容
+									</p>
+								</div>
+
+
+								<div class="article-item-box-like-comment">
+									<span class="article-item-box-author">#author&nbsp;&nbsp;</span>
+									<span>
+											<a href="articleDetail.html#comment"><i class="fa fa-comment-o"></i>&nbsp;评论&nbsp;&nbsp;</a>
+											<a href="javascript:;" class="article-like"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a>
+										</span>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+					</div>
+
+					<div class="article-item">
+						<div class="article-item-box">
+							<h3><a href="articleDetail.html">我是文章的标题</a></h3>
+							<h5>发布于：<span>刚刚</span></h5>
+
+							<div class="article-item-box-content">
+								<div class="article-item-box-img" >
+									<img src="../../resource/static/image/article-image/article2.jpg" alt="">
+								</div>
+
+								<div class="article-item-box-text" >
+									<div class="article-item-box-summary">
+										<!--大概135字可以-->
+										<p>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+										</p>
+									</div>
+
+
+									<div class="article-item-box-like-comment">
+										<span class="article-item-box-author">#author&nbsp;&nbsp;</span>
+										<span>
+										<a href="articleDetail.html#comment"><i class="fa fa-comment-o"></i>&nbsp;评论&nbsp;&nbsp;</a>
+										<a href="javascript:;" class="article-like"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a>
+									</span>
+									</div>
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="article-item">
+						<div class="article-item-box">
+							<h3><a href="articleDetail.html">我是文章的标题</a></h3>
+							<h5>发布于：<span>刚刚</span></h5>
+
+							<div class="article-item-box-content">
+								<div class="article-item-box-img" >
+									<img src="../../resource/static/image/article-image/article3.jpg" alt="">
+								</div>
+
+								<div class="article-item-box-text" >
+									<div class="article-item-box-summary">
+										<!--大概135字可以-->
+										<p>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+										</p>
+									</div>
+
+
+									<div class="article-item-box-like-comment">
+										<span class="article-item-box-author">#author&nbsp;&nbsp;</span>
+										<span>
+										<a href="articleDetail.html#comment"><i class="fa fa-comment-o"></i>&nbsp;评论&nbsp;&nbsp;</a>
+										<a href="javascript:;" class="article-like"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a>
+									</span>
+									</div>
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="article-item">
+						<div class="article-item-box">
+							<h3><a href="articleDetail.html">我是文章的标题</a></h3>
+							<h5>发布于：<span>刚刚</span></h5>
+
+							<div class="article-item-box-content">
+								<div class="article-item-box-img" >
+									<img src="../../resource/static/image/article-image/article4.jpg" alt="">
+								</div>
+
+								<div class="article-item-box-text" >
+									<div class="article-item-box-summary">
+										<!--大概135字可以-->
+										<p>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+										</p>
+									</div>
+
+
+									<div class="article-item-box-like-comment">
+										<span class="article-item-box-author">#author&nbsp;&nbsp;</span>
+										<span>
+										<a href="articleDetail.html#comment"><i class="fa fa-comment-o"></i>&nbsp;评论&nbsp;&nbsp;</a>
+										<a href="javascript:;" class="article-like"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a>
+									</span>
+									</div>
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="article-item">
+						<div class="article-item-box">
+							<h3><a href="articleDetail.html">我是文章的标题</a></h3>
+							<h5>发布于：<span>刚刚</span></h5>
+
+							<div class="article-item-box-content">
+								<div class="article-item-box-img" >
+									<img src="../../resource/static/image/article-image/article5.jpg" alt="">
+								</div>
+
+								<div class="article-item-box-text" >
+									<div class="article-item-box-summary">
+										<!--大概135字可以-->
+										<p>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+											8/12你的内容 8/12你的内容
+										</p>
+									</div>
+
+
+									<div class="article-item-box-like-comment">
+										<span class="article-item-box-author">#author&nbsp;&nbsp;</span>
+										<span>
+										<a href="articleDetail.html#comment"><i class="fa fa-comment-o"></i>&nbsp;评论&nbsp;&nbsp;</a>
+										<a href="javascript:;" class="article-like"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a>
+									</span>
+									</div>
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div id="article-paging-box-wrap">
+					<div id="article-paging-box"></div>
+				</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>
+			<span>&copy; 2020</span>
+			<span><a href="javascript:;" target="_blank">xxx.com</a></span>
+		</p>
+		<p><span>鲸呆博客</span></p>
+	</div>
+
+	<script src="../../resource/static/plugin/layui/layui.js"></script>
+	<script src="../../resource/static/js/jquery.min.js"></script>
+	<script src="../../resource/static/js/front/index.js"></script>
+	<script src="../../resource/static/js/front/frontBase.js"></script>
+	<script>
+		layui.use('element', function(){
+			var element = layui.element;
+		});
+	</script>
+	<script type="text/html" id="login-box-template">
+		<div id="login-box-wrap">
+			<div id="login-box">
+				<form action="../back/writeBlog.html">
+					<div class="form-element-inline">
+						<!--下面label和div不能有空格，否则会有空隙-->
+						<label for="login-username">账号</label>
+						<div class="input-box">
+							<input type="text" id="login-username"
+								   placeholder="请输入账号.." autocomplete="off" />
+						</div>
+                        <br/>
+						<!-- 提示信息框 -->
+                        <span id="username-aux-info">*&nbsp;账号不存在</span>
+					</div>
+
+					<div class="form-element-inline">
+                        <label for="login-password">密码</label>
+						<div class="input-box">
+							<input type="password" id="login-password"
+								   placeholder="请输入密码.." autocomplete="off"/>
+						</div>
+                        <br/>
+						<!--提示信息框-->
+                        <span id="password-aux-info">*&nbsp;密码错误</span>
+					</div>
+
+					<div class="form-element-inline">
+						<button type="button" id="login-submit-button" class="layui-btn layui-btn-primary">提交</button>
+						<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</script>
+
+</body>
+</html>

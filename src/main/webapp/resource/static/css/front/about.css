@@ -1,0 +1,35 @@
+html { font-size: 16px}
+
+.container #full-article-box{
+    /*background-color: RGB(54,59,64);*/
+    background-color: #fff;
+    /*//护眼*/
+    /*background-color: #C7EDCC;*/
+}
+
+.container #full-article{
+    margin: 20px;
+    padding: 5px 25px 8px 25px;
+}
+
+/* markdown内部 start*/
+
+.container #full-article {color: #777777;}
+.container #full-article h1 { font-size: 2rem; margin: 1.5rem; color:#333333; /*border-bottom: solid 1px #999999*/}
+.container #full-article h2 { font-size: 1.8rem; margin-left: 1.5rem; color:#333333;}
+.container #full-article h3 { font-size: 1.6rem; margin-left: 1.5rem; color:#333333;}
+.container #full-article h4 { font-size: 1.4rem; margin-left: 1.5rem; color:#333333;}
+.container #full-article h5 { font-size: 1.2rem; margin-left: 1.5rem; color:#333333;}
+.container #full-article h6 p{ font-size: 1rem; margin-left: 1.5rem; color:#333333;}
+.container #full-article ul>li{ list-style: circle;margin-left: 2rem}
+.container #full-article ol>li{ list-style: decimal;margin-left: 2rem}
+.container #full-article blockquote {
+    padding-left: 1.875rem;
+    margin: 0 0 1.875rem 1.875rem;
+    border-left: solid 3px #999999;
+    margin-top: 35px;
+}
+
+/* markdown内部 end*/
+
+

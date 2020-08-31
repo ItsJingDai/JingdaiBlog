@@ -1,0 +1,57 @@
+
+/* 留言start */
+.message-list{
+    list-style: none;
+}
+
+.message-list li{
+    background: #fff;
+    margin: 0 0 12px 0;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.message-author-avatar{
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 8px 15px 0 0;
+}
+.message-author-name, .message-time{
+    line-height: 150%;
+}
+.message-time{
+    color: #999;
+}
+.message-text p{
+    line-height: 150%;
+}
+/* 留言end */
+
+/* message paging start */
+.container #message-paging-box-wrap{
+    text-align: right;
+}
+
+.container #message-paging-box{
+    display: inline-block;
+}
+
+.container #message-paging-box .layui-laypage a{
+    font-size: 1.4rem !important;
+    line-height: 2.5rem !important;
+    height: 2.5rem !important;
+}
+
+.container #message-paging-box .layui-laypage a:hover{
+    color: #a5a5a5;
+}
+
+.container #message-paging-box .layui-laypage span{
+    font-size: 1.4rem !important;
+    line-height: 2.5rem !important;
+    height: 2.5rem !important;
+}
+
+/* message paging end */

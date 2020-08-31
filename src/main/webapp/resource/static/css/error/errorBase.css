@@ -1,0 +1,35 @@
+.container{
+    width:50%;
+    margin-left: 25%;
+    min-height: 580px;
+}
+.error-img-container{
+    width: 100%;
+}
+.error-img-container img{
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.error-text-container{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-width:  960px) {
+    .container{
+        width:80%;
+        margin-left: 10%;
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width:  800px) {
+    .container{
+        width:90%;
+        margin-left: 5%;
+        min-height: 0;
+    }
+}

@@ -1,0 +1,88 @@
+.container .all-blog-container {
+    margin: 22px auto 0 auto;
+    width: 80%;
+}
+
+/* 表格 start*/
+/* 修改表格的内padding  */
+.layui-table[lay-size=lg] th {
+    padding: 15px 20px !important;
+    font-size: 18px;
+}
+
+.layui-table[lay-size=lg] td {
+    padding: 8px 20px !important;
+    font-size: 18px;
+}
+/* 修改表格中按钮的大小 */
+.layui-btn-sm {
+    font-size: 16px;
+}
+/* 修改按钮的hover的border */
+.layui-btn-primary:hover {
+    background: #AAAAAA;
+    border-color: #AAAAAA;
+}
+
+.container th,.container td{
+    text-align: center;
+}
+
+@media only screen and (max-width:  960px) {
+    .container .all-blog-container {
+        width: 96%;
+    }
+
+    .layui-table[lay-size=lg] th {
+        padding: 8px 10px !important;
+        font-size: 15px;
+    }
+
+    .layui-table[lay-size=lg] td {
+        padding: 5px 10px !important;
+        font-size: 15px;
+    }
+    .layui-btn-sm {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:  760px) {
+    .container .all-blog-container {
+        width: 98%;
+    }
+    .layui-table[lay-size=lg] th {
+        padding: 4px 3px !important;
+    }
+    .layui-table[lay-size=lg] td {
+        padding: 2px 3px !important;
+    }
+}
+/* 表格 end*/
+
+/* blogs paging start */
+.container #blog-paging-box-wrap{
+    text-align: right;
+}
+
+.container #blog-paging-box{
+    display: inline-block;
+}
+
+.container #blog-paging-box .layui-laypage a{
+    font-size: 1.2rem !important;
+    line-height: 2.2rem !important;
+    height: 2.2rem !important;
+}
+
+.container #blog-paging-box .layui-laypage a:hover{
+    color: #a5a5a5;
+}
+
+.container #blog-paging-box .layui-laypage span{
+    font-size: 1.2rem !important;
+    line-height: 2.2rem !important;
+    height: 2.2rem !important;
+}
+
+/* blog paging end */
